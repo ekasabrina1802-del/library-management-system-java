@@ -73,35 +73,43 @@ Berikut adalah *external libraries* yang digunakan dalam aplikasi:
 
 ## 📁 Struktur Direktori Proyek
 
-📂 Libralystic/
-├── 📁 src/
-│ ├── 📁 Config/
-│ │ └── Koneksi.java
-│ ├── 📁 Icon/
-│ ├── 📁 Main/
-│ │ ├── Dashboard.java
-│ │ ├── DaftarBuku.java
-│ │ ├── MenuItem.java
-│ │ ├── MenuUtama.java
-│ │ ├── Peminjaman.java
-│ │ ├── SignUp.java
-│ │ └── panelAnggota.java
-│ ├── 📁 View/
-│ │ ├── FormLogin.java
-│ │ ├── MenuBuku.java
-│ │ ├── MenuDashboard.java
-│ │ ├── MenuKategori.java
-│ │ ├── MenuPeminjaman.java
-│ │ ├── MenuPenerbit.java
-│ │ └── MenuPengembalian.java
-├── 📁 img/
-├── 📁 Test Packages/
-├── 📁 Libraries/
-│ ├── datechooser.jar
-│ ├── mysql-connector-j-9.3.0.jar
-│ ├── AbsoluteLayout.jar
-│ ├── flatlaf-3.2.1.jar
-│ └── JDK 23 (Default)
+```
+Libralystic/
+│
+├── src/
+│   ├── Config/
+│   │   └── Koneksi.java
+│   │
+│   ├── Icon/
+│   │
+│   ├── Main/
+│   │   ├── Dashboard.java
+│   │   ├── DaftarBuku.java
+│   │   ├── MenuItem.java
+│   │   ├── MenuUtama.java
+│   │   ├── Peminjaman.java
+│   │   ├── SignUp.java
+│   │   └── panelAnggota.java
+│   │
+│   └── View/
+│       ├── FormLogin.java
+│       ├── MenuBuku.java
+│       ├── MenuDashboard.java
+│       ├── MenuKategori.java
+│       ├── MenuPeminjaman.java
+│       ├── MenuPenerbit.java
+│       └── MenuPengembalian.java
+│
+├── img/
+├── Test Packages/
+│
+├── Libraries/
+│   ├── datechooser.jar
+│   ├── mysql-connector-j-9.3.0.jar
+│   ├── AbsoluteLayout.jar
+│   ├── flatlaf-3.2.1.jar
+│   └── JDK 23 (Default)
+```
 
 ## 🛠️ Langkah-Langkah Instalasi dan Menjalankan Aplikasi
 
